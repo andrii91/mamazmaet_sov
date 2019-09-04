@@ -1,0 +1,26 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+    @import '../mobile';
+  	& {
+      .idea-item li {
+        &:nth-child(1){
+          background: #ff9c86;
+        }
+        &:nth-child(2){
+        background: #ffd3a0;
+        }
+        &:nth-child(3){
+        background: #c5e7f7
+        }
+        &:nth-child(4){
+        background: #c8e97a
+        }
+        &:nth-child(5){
+        
+        }
+      }
+
+  
+  }
+}
